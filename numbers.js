@@ -1,6 +1,9 @@
 /**
  * @param {string} number
  */
-export function getDivisionRemainderBy2(number) {
-    return number % 2;
+export function evenOrOdd(number) {
+    if (Number.parseInt(number, 10) % 2 === 0){
+        return "even";
+    }
+    return "odd";
 }
